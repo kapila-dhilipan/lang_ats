@@ -34,7 +34,7 @@ df = df.head(50)
 client.close()
 
 # Initialize the language model
-llm = ChatOpenAI(api_key="sk-None-pN4JNIzAiBXvnqK68cx3T3BlbkFJYplLo0anyln4IBXkxuCq", model="gpt-3.5-turbo")
+llm = ChatOpenAI(api_key="sk-proj-ChJwAvq05jjrk7ZIJYQvT3BlbkFJvt7XgACF2Ds6BKk25R88", model="gpt-3.5-turbo")
 
 prompt_template = """
 You are given an employee data table. Here is the data:
