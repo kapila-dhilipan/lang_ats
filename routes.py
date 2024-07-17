@@ -59,9 +59,9 @@ def dict_to_html_table(data):
     return df.to_html(classes='dataframe table table-bordered table-hover', index=False)
 
 # Route for the main page
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 # Route for handling the chat
 @app.route('/chat', methods=['POST'])
