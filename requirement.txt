@@ -1,0 +1,8 @@
+flask
+pymongo
+flask_cors
+pymongo
+openai
+langchain
+pandas
+langchain_community
