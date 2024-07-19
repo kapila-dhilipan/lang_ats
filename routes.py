@@ -63,6 +63,10 @@ def dict_to_html_table(data):
 # def index():
 #     return render_template('index.html')
 
+@app.route('/testing')
+def index():
+    return ('Working')
+    
 # Route for handling the chat
 @app.route('/chat', methods=['POST'])
 def chat():
